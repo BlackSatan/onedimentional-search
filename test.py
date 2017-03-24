@@ -1,6 +1,7 @@
 from swenn import swenn
 from dichotomy import dichotomy
 from fibonacci import fibonacci
+from golden_ratio import golden_ratio
 
 A = 7
 X0 = 5.5
@@ -18,5 +19,7 @@ print('result swen', interval)
 print('result dichotomy', dichotomy(o_my_work_function, interval[0], interval[1], E))
 
 print('result fibonacci', fibonacci(o_my_work_function, interval[0], interval[1], 15))
+
+print('result golden', golden_ratio(o_my_work_function, interval[0], interval[1], 0.1))
 
 
